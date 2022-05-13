@@ -1,8 +1,8 @@
 # For binaries with no extensions
 *
-!/**/
 
 # Include these files
+!/**/
 !*.c*
 !*.h*
 !*.md*
