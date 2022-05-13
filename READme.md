@@ -67,3 +67,16 @@ the commands for updating each file.  In a program, typically the executable fil
         This have all the libraries they use.
         ```
 
+### C compiling steps:
+- Preprocessing
+    - This will go through your code and look for #includes statements and preprocess that.
+    - The #include preprocessing, looks for the code you including and adds it to your file where you are using it.
+- Compiling
+    - Takes your code and compile it into assembly code
+    - Computers have many different cpu's, and this cpu's requires this assembly code to run your program
+- Assembling
+    - This step takes your assembly code and then convert it into machine code, which is binary that only consist of 1's and 0's
+- Linking
+    - This then include all your external libraries you included, binary files or machine code and combines it to your compile machine code that happen in the assembling step together
+    - Just to recall, that the #include <cs50.h> only includes the prototypes for a function. This still requires the functions definitions. 
+    - So this step includes that definitions now.
