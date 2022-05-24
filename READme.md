@@ -80,3 +80,12 @@ the commands for updating each file.  In a program, typically the executable fil
     - This then include all your external libraries you included, binary files or machine code and combines it to your compile machine code that happen in the assembling step together
     - Just to recall, that the #include <cs50.h> only includes the prototypes for a function. This still requires the functions definitions. 
     - So this step includes that definitions now.
+
+### Types
+- bool: 1 bytes
+- char: 1 bytes
+- double: 8 bytes
+- floats: 4 bytes
+- int: 4 bytes
+- long: 8 bytes
+- string: variable bytes?
